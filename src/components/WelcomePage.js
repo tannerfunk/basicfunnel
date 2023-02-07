@@ -19,7 +19,7 @@ const WelcomePage = () => {
         <div className="mx-auto max-w-7xl py-0 sm:px-6 sm:py-0 lg:px-8">
           <div className="relative isolate overflow-hidden bg-s8 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
             <h2 className="mx-auto max-w-2xl text-4xl font-bold tracking-tight text-s12">
-              Learn How To <em>Actually</em> Be An Influence The Life Of Your Adult Child Today For FREE
+              Learn How To <em>Actually</em> Be An Influence In The Life Of Your Adult Child Today For FREE
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-7 text-s12">
                 This Is Next-Level Motherhood And You Need To Be Equipped To Make The Difference You Were Born To Make
