@@ -5,6 +5,7 @@ import {db} from '../firebase';
 import {collection, addDoc} from 'firebase/firestore';
 // import { firestore } from "firebase/app";
 // import "firebase/database";
+import axios from 'axios';
 
 
 const SignUpPage = () => {
@@ -21,23 +22,28 @@ const SignUpPage = () => {
     setIsDisabled(!/^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/.test(e.target.value));
   }
 
+  
+
 
   const handleDownload = async () => {
+
+
 
     await addDoc(collection(db, 'opt-ins'), {
       name: formValues.name,
       email: formValues.email
     })
-    try {
-      const link = document.createElement('a');
-      link.href = './8_Step_Guide.pdf';
-      link.setAttribute('download', '8_Step_Guide.pdf');
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-    } catch (error) {
-      console.error(error);
-    }
+
+    // try {
+    //   const link = document.createElement('a');
+    //   link.href = './8_Step_Guide.pdf';
+    //   link.setAttribute('download', '8_Step_Guide.pdf');
+    //   document.body.appendChild(link);
+    //   link.click();
+    //   document.body.removeChild(link);
+    // } catch (error) {
+    //   console.error(error);
+    // }
     
   };
 
