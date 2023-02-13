@@ -1,6 +1,7 @@
 import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid';
 import { useState } from 'react';
 import tp from "../testimonialProfile.png";
+import { Link } from 'react-router-dom';
 
 
 const frequencies = [
@@ -11,7 +12,7 @@ const frequencies = [
     {
       name: '3-month Coaching Program ($6,000 Value)',
       id: 'tier-starter',
-      href: '#',
+      href: 'https://square.link/u/pmlovRlK',
       featured: false,
       description: 'A big step towards becoming the Mother of Your Dreams',
       price: { monthly: '$2,750', annually: '$30,000' },
@@ -21,7 +22,7 @@ const frequencies = [
     {
       name: "All for 3k Special ($11,000 Value)",
       id: 'tier-scale',
-      href: '#',
+      href: 'https://square.link/u/pzj3xUnH',
       featured: true,
       description: 'The best financial services for your thriving business.',
       price: { monthly: '$3,000', annually: 'N/a' },
@@ -38,7 +39,7 @@ const frequencies = [
     {
       name: 'Made For More Retreat ($5,000 Value)',
       id: 'tier-growth',
-      href: '#',
+      href: 'https://square.link/u/QP3xxLkm',
       featured: false,
       description: 'Will be such a fun weekend. Full of growth!',
       price: { monthly: '$2,500', annually: 'N/A' },
@@ -404,14 +405,14 @@ const Retreat = () => {
         </h2>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0">
           <a
-            href="#"
+            href="https://checkout.square.site/merchant/FEZJDKK7MV8SC/checkout/EKJVMIKLGFO5V7BDREPBM5KZ"
             className="rounded-md bg-s2 px-3.5 py-1.5 text-base font-semibold leading-7 text-s7 shadow-sm hover:bg-s2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             <em>Let's do this</em>
           </a>
-          <a href="#" className="text-base font-semibold leading-7 text-gray-900">
+          <Link to="/letstalk" className="text-base font-semibold leading-7 text-gray-900">
             Let's talk <span aria-hidden="true">→</span>
-          </a>
+          </Link>
         </div>
       </div>
           
