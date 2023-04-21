@@ -19,24 +19,27 @@ const WelcomePage = () => {
         <div className="mx-auto max-w-7xl py-0 sm:px-6 sm:py-0 lg:px-8">
           <div className="relative isolate overflow-hidden bg-s8 px-6 py-24 text-center shadow-2xl sm:rounded-3xl sm:px-16">
             <h2 className="mx-auto max-w-3xl text-4xl font-bold tracking-tight text-s12">
-              Learn How To <em>Actually</em> Be An Influence In The Life Of Your Adult Child Today For FREE
+              Learn How To <em>Actually</em> Be An Influence In The Life Of Your Adult Child For FREE
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-7 text-s12">
-                This Is Next-Level Motherhood And You Need To Be Equipped To Make The Difference You Were Born To Make
+                This is Next-Level Motherhood and you need to be equipped to make the difference you were born to make! 
+            </p>
+            <p className="mx-auto mt-6 max-w-xl text-lg leading-7 text-s12">
+            <strong>It's time your adult children honor and revere you as, not just a mother, <em>but a mentor.</em></strong>
             </p>
             <p className="mx-auto mt-8 max-w-2xl text-2xl leading-7 text-s12"><em>
-                The "8 Step Guide to <strong>Really</strong> Influence your Adult Children for Good" has the tools you'll <strong>need</strong> to be a force for good in the lives of those you love most (or want to love the most!).
+                There are <strong>real</strong> tools for <strong>actually</strong> achieving a happier, more personally fulfilling life that results in closer, more connected relationships with your adult kids!
             </em></p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Link
-                to="/signup"
+                to="/thankyou"
                 className="rounded-md bg-white px-3.5 py-2 text-base font-semibold leading-7 text-s12 shadow-sm hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
               >
-                Download
+                Sign me up!
               </Link>
-              <Link to="/signup" className="text-base font-semibold leading-7 text-s12">
+              {/* <Link to="/signup" className="text-base font-semibold leading-7 text-s12">
                 Let's Talk! <span aria-hidden="true">→</span>
-              </Link>
+              </Link> */}
             </div>
             <svg
               xmlns="http://www.w3.org/2000/svg"

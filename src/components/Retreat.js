@@ -142,8 +142,16 @@ const Retreat = () => {
                         <h2 className="text-4xl font-bold tracking-tight text-s9 sm:text-6xl">March 23-25</h2>
                         <h2 className="text-2xl font-bold tracking-tight text-s9 sm:text-4xl">El Dorado Hills</h2>
                         <p className="mt-6 text-lg sm:text-xl lg:text-2xl leading-8 text-s9">
-                        No more excuses! Just 30 minutes from the Sacramento Airport, you'll get 4 nights private room (beginning Wednesday March 22nd) with breakfast, lunch, and snacks for Thursday, Friday and Saturday + 1 dinner!
+                        No more excuses! Along with a changed life, here's what you'll get when you join us!
+                        
                         </p>
+                        <ul className="pl-8 mt-6 text-md sm:text-lg lg:text-xl leading-8 text-s9 list-disc">
+                          <li>Private hotel room for 4 nights (check-in Wednesday March 22nd)</li>
+                          <li>Breakfast, lunch, and snacks each day!</li>
+                          <li>Group dinner on Saturday</li>
+                          <li>Special treat from our guest <strong>stylist</strong> (you will <em>not</em> want to miss)!</li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
@@ -190,16 +198,16 @@ const Retreat = () => {
           <div className="relative z-10">
             <div className="prose prose-indigo mx-auto text-s9 lg:max-w-none sm:mx-12"> <br />
               <ul role="list" className="text-md sm:text-lg lg:text-xl ">
-                <li>&#x2022; Learn why your circumstances are never the cause of your suffering and how to manage your mindset and your emotions so that they both serve you. </li>
-                <br /><li>&#x2022; Recognize that all emotions are God-given and there are no wrong or right ones Some serve us and help us move forward and others keep us stuck and in pain.</li>
-                <br /><li>&#x2022; Know how to deepen your connection with God, yourself, your spouse and children. Understand why people “get on your nerves” and how to show up as the best version of yourself, no matter the other person's behavior.</li>
-                <br /><li>&#x2022; Find out why you don't take action in the direction of your dreams and goals or if you do why it doesn't last (hint: there is nothing wrong with YOU, you just have a human brain that needs some hacking to get it done; we will teach you how)</li>
-                <br /><li>&#x2022; Discover the best practices and tips for weight loss after 45 and why willpower isn't the answer.</li>
+                <li>&#x2022; Learn why your circumstances are <strong>never the cause of your suffering</strong> and how to manage your mindset and your emotions so that they both <strong>serve you.</strong> </li>
+                <br /><li>&#x2022; Recognize that <strong>all emotions are God-given</strong> and there are no wrong or right ones Some serve us and help us move forward and others keep us stuck and in pain.</li>
+                <br /><li>&#x2022; Know how to deepen your connection with God, yourself, your spouse and children. Understand <strong>why people “get on your nerves”</strong> and how to <strong>show up as the best version of yourself</strong>, no matter the other person's behavior.</li>
+                <br /><li>&#x2022; Find out why you don't take action in the direction of your dreams and goals or if you do why it doesn't last (hint: there is <strong>nothing wrong with YOU</strong>, you just have a human brain that needs some hacking to get it done; we will teach you how)</li>
+                <br /><li>&#x2022; Discover the best practices and tips for weight loss after 45 and <strong>why willpower isn't the answer.</strong></li>
               </ul><br /><br />
 
               <p className="text-md sm:text-lg lg:text-xl ">
-                In addition to all of this, we'll also be having a special treat with our guest stylist for a lot of fun to wrap us up. You are <em>not</em> going to want to miss this. Space is limited so grab your spot right now while they last!
-              </p>
+                In addition to all of this, don't forget your <strong>special treat with our guest stylist</strong> for a lot of fun to wrap us up.</p>
+              <p className="text-md sm:text-lg lg:text-xl "><br />Space is limited so grab your spot right now while they last!</p>
             </div>
             <div className="mx-auto mt-10 flex max-w-prose text-base lg:max-w-none">
               <div className="rounded-md shadow">
@@ -260,7 +268,7 @@ const Retreat = () => {
                     <path d="M9.352 4C4.456 7.456 1 13.12 1 19.36c0 5.088 3.072 8.064 6.624 8.064 3.36 0 5.856-2.688 5.856-5.856 0-3.168-2.208-5.472-5.088-5.472-.576 0-1.344.096-1.536.192.48-3.264 3.552-7.104 6.624-9.024L9.352 4zm16.512 0c-4.8 3.456-8.256 9.12-8.256 15.36 0 5.088 3.072 8.064 6.624 8.064 3.264 0 5.856-2.688 5.856-5.856 0-3.168-2.304-5.472-5.184-5.472-.576 0-1.248.096-1.44.192.48-3.264 3.456-7.104 6.528-9.024L25.864 4z" />
                   </svg>
                   <p className="relative text-s6  ">
-                  Working with Susie has changed all aspects of my life. I have more fulfillment at work, more love and connection in my relationships, and more peace in my body image and in showing up as my true and full self!
+                  Working with Susie <strong>has changed all aspects of my life.</strong> I have more fulfillment at work, more love and connection in my relationships, and more peace in my body image and in <strong>showing up as my true and full self!</strong>
                   </p>
                 </div>
               </div>
@@ -290,7 +298,7 @@ const Retreat = () => {
           <div className="relative z-10 ">
             
             <p className="mx-auto mt-4 max-w-2xl text-center text-2xl sm:text-3xl leading-8 text-s6 pb-16">
-              For you, right now, I'll take my $3,000 coaching program and my $3,000 Made for More Retreat and combine it for an <em>unbelievable</em> price. $3,000 for everything.
+              For you, right now, I'll take my $3,000 coaching program and my $3,000 Made for More Retreat and <em>combine it</em> for an <em>unbelievable</em> price. <strong>$3,000 for <em>everything.</em></strong>
             </p>
             <h2 className="mx-auto max-w-4xl text-center text-4xl sm:text-5xl font-bold tracking-tight text-s6 pb-3">
               Made for More.

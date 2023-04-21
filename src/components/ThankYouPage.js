@@ -13,11 +13,12 @@ const ThankYouPage = () => {
                 alt="Susie Funk Coaching"
               />
               <h1 className="mt-14 text-4xl font-bold tracking-tight text-gray-900 sm:mt-10 sm:text-6xl">
-                One-time Offer: Free Coaching Jumpstart!
+                Free Coaching Jumpstart!
               </h1>
-              <p className="mt-6 text-lg leading-8 text-gray-600">
-                Only available to you NOW for signing up. Be the Mother of Influence your adult children need you to be!
+              <p className="mt-6 text-3xl leading-8 text-gray-600">
+                Mothers <em>belong</em> in mentorship roles and <strong>we get you there.</strong> 
               </p>
+              <p className="mt-6 text-lg leading-8 text-gray-600">Schedule below and see firsthand how we do it!</p>
               <div className="pr-8 mt-8">
                 <Calendly />
               </div>
